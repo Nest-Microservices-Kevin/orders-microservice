@@ -10,4 +10,5 @@
 ```
 docker compose up -d
 ```
-4. Levantar el proyecto con `npm run start:dev`
+4. Ejecutar migración de prisma `npx prisma migrate dev`
+5. Levantar el proyecto con `npm run start:dev`
